@@ -21,9 +21,9 @@ namespace WebApi.Host
         protected override void OnStart(string[] args)
         {
             // Start OWIN host 
-            //var url = new UriBuilder("http", "+", 9000).ToString();
+            var url = new UriBuilder("http", "+", 9000).ToString();
 
-            WebApp.Start<WebApiStartup>("http://192.168.2.129:9000");
+            WebApp.Start<WebApiStartup>(url);
         }
 
         protected override void OnStop()
