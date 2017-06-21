@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{A4E373C3-72F3-493C-8D6D-54A84BDB0CD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Host", "WebApi.Host\WebApi.Host.csproj", "{9F009C51-F272-45DF-ACA0-7B225194E95C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{9BB3402F-8453-46EE-8B2E-0D3EE0AA93EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWeb", "MvcWeb\MvcWeb.csproj", "{9C6CE388-EE98-4042-9E9D-0BD4EB0B198D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +21,19 @@ Global
 		{A4E373C3-72F3-493C-8D6D-54A84BDB0CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4E373C3-72F3-493C-8D6D-54A84BDB0CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4E373C3-72F3-493C-8D6D-54A84BDB0CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F009C51-F272-45DF-ACA0-7B225194E95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F009C51-F272-45DF-ACA0-7B225194E95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F009C51-F272-45DF-ACA0-7B225194E95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F009C51-F272-45DF-ACA0-7B225194E95C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6CE388-EE98-4042-9E9D-0BD4EB0B198D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6CE388-EE98-4042-9E9D-0BD4EB0B198D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6CE388-EE98-4042-9E9D-0BD4EB0B198D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6CE388-EE98-4042-9E9D-0BD4EB0B198D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C6CE388-EE98-4042-9E9D-0BD4EB0B198D} = {9BB3402F-8453-46EE-8B2E-0D3EE0AA93EE}
 	EndGlobalSection
 EndGlobal
